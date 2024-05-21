@@ -1,0 +1,74 @@
+html {
+    background-color: #121212;
+    font-family: inter;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 8px;
+    font-size: 15px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.social-profile-card {
+    width: 400px;
+    border-radius: 10px;
+    background-color: #1C1C1C;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    opacity: 0.8;
+}
+
+br {
+    height: 20px;
+}
+
+button {
+    width: 100%;
+    margin: 7px;
+    height: 40px;
+    background-color: #3B3B3B;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-family: inter-bold;
+}
+
+button:hover {
+    cursor: pointer;
+    /* border: 1px solid #297373; */
+    border: 1px solid snow;
+}
+
+button:focus {
+    /* background-color: #FAC9B8; */
+    background-color: #D81E5B;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter-bold;
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
