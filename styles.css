@@ -37,10 +37,6 @@ p {
     opacity: 0.8;
 }
 
-br {
-    height: 20px;
-}
-
 button {
     width: 100%;
     margin: 7px;
@@ -54,13 +50,13 @@ button {
 
 button:hover {
     cursor: pointer;
-    /* border: 1px solid #297373; */
-    border: 1px solid snow;
+    /* border: 1px solid snow; */
 }
 
-button:focus {
-    /* background-color: #FAC9B8; */
-    background-color: #D81E5B;
+button:active {
+    /* background-color: #D81E5B; */
+    background-color: lime;
+    color: #1C1C1C;
 }
 
 @font-face {
