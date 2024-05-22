@@ -50,7 +50,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    /* border: 1px solid snow; */
+    border: 1px solid snow;
 }
 
 button:active {
